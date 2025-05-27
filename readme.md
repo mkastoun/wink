@@ -1,4 +1,5 @@
 <p align="center"><img src="/art/header.png?1" alt="wink logo"></p>
+This project is a fork of the package https://github.com/themsaid/wink with the support of laravel 11 and 12.
 
 Wink adds a nice UI where you can manage a publication of any size with posts, pages, tags, and authors.
 
@@ -15,7 +16,7 @@ Wink uses a separate database connection and authentication system so that you d
 To install Wink, run these commands in the root of your Laravel app:
 
 ```sh
-composer require themsaid/wink
+composer require mkastoun/wink
 php artisan wink:install
 php artisan storage:link
 ```
